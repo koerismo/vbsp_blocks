@@ -1,0 +1,29 @@
+<xml xmlns="https://developers.google.com/blockly/xml" id="toolbox" style="display: none">
+  <category name="Variables" colour="#a55b80" custom="VARIABLE">
+    <block type="switch">
+      <field name="switch_value" id="k.3L,T)$h9h@XnAQGx)0">Value</field>
+    </block>
+  </category>
+  <category name="Setters" colour="#745ba5">
+    <block type="set_instvar">
+      <field name="isntvar">%InstVar%</field>
+    </block>
+  </category>
+  <category name="Getters" colour="#5b67a5">
+    <block type="instance"></block>
+  </category>
+  <category name="Flow" colour="#5b80a5">
+    <block type="condition">
+      <next>
+        <block type="switch">
+          <field name="switch_value" id="k.3L,T)$h9h@XnAQGx)0">Value</field>
+          <next>
+            <block type="case">
+              <field name="case_value" id="k.3L,T)$h9h@XnAQGx)0">Value</field>
+            </block>
+          </next>
+        </block>
+      </next>
+    </block>
+  </category>
+</xml>
